@@ -231,3 +231,14 @@ for(i=1;i<=n;i++){
   }
   console.log(line);
 }
+for(i=1;i<=n-1;i++){
+  line=' ';
+  for(j=1;j<=i;j++){
+    line+=' ';
+  }
+  for(j  = (n - i) * 2 - 1; j > 0; j--){
+    line+=' *'
+  }
+  console.log(line);
+}
+
