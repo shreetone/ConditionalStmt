@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="">
+    <input type="number" id="n1"/>
+     <input type="number" id="n2"/>
+
+     <span id="result"></span>
+     <br>
+     <button class="btn" onclick="Addition">+</button>
+      <button class="btn" onclick="Subtraction">-</button>
+       <button class="btn" onclick="Multiply">*</button>
+        <button class="btn" onclick="Division">/</button>
+        </div>
+
+        <script>
+            let n1=document.querySelector('#n1')
+             let n2=document.querySelector('#n2')
+            let result=document.querySelector('#result')
+            function Addition(){
+                num1=Number(n1.value)
+                num2=Number(n2.value)
+                result.textContent=num1+num2;
+            }
+
+            const Subtraction=()=>{
+                  num1=Number(n1.value)
+                num2=Number(n2.value)
+                result.textContent=num1-num2;
+            }
+
+             const Multiply=()=>{
+                  num1=Number(n1.value)
+                num2=Number(n2.value)
+                result.textContent=num1*num2;
+            }
+
+
+        </script>
+</body>
+</html>
