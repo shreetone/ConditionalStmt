@@ -1,5 +1,4 @@
-
-//Arithmetic Operators
+//Arithmetic Operators 
 a=Number(prompt("Enter Your First Number"));
 b=Number(prompt("Enter Your First Number"));  
 
@@ -97,4 +96,8 @@ function calculateDiscount() {
     console.log("Discounted total:",total.toFixed(2));
 }
 calculateDiscount();
+
+ 
+
+
 
